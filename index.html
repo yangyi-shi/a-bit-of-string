@@ -7,7 +7,7 @@
   <meta name="description" content="A Bit of String is a chamber music group. Meet the players, see what we are working on, and get in touch.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=Noto+Serif+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -49,32 +49,24 @@
       <!-- EDIT: one <article> per member -->
       <div class="grid members">
         <article class="card">
-          <p class="num">No. I</p>
           <p class="role">Violin I</p>
           <h3>Constantine Wang</h3>
-          <p class="bio">The first voice in the conversation — carries the melody most often, and sets the temperature for everyone else.</p>
-          <p class="strings"><span>Violin</span><span>G–D–A–E</span></p>
+          <p class="bio"><span><strong>G</strong>uiding melodies</span><span><strong>D</strong>aring brilliance</span><span><strong>A</strong>irborne lyricism</span><span><strong>E</strong>xpressive fire</span></p>
         </article>
         <article class="card">
-          <p class="num">No. II</p>
           <p class="role">Violin II</p>
           <h3>Yangyi Shi</h3>
-          <p class="bio">The second violin answers, echoes and occasionally argues — the harmony and the rhythmic pulse live here.</p>
-          <p class="strings"><span>Violin</span><span>G–D–A–E</span></p>
+          <p class="bio"><span><strong>G</strong>rounded harmony</span><span><strong>D</strong>ancing rhythms</span><span><strong>A</strong>ttentive dialogue</span><span><strong>E</strong>ssential support</span></p>
         </article>
         <article class="card">
-          <p class="num">No. III</p>
           <p class="role">Viola</p>
           <h3>Amy Lu</h3>
-          <p class="bio">The warm middle of the sound. The viola is the quartet’s inner weather — less often in the spotlight, always in the feeling.</p>
-          <p class="strings"><span>Viola</span><span>C–G–D–A</span></p>
+          <p class="bio"><span><strong>C</strong>entered warmth</span><span><strong>G</strong>lowing depth</span><span><strong>D</strong>eep resonance</span><span><strong>A</strong>mber tones</span></p>
         </article>
         <article class="card">
-          <p class="num">No. IV</p>
           <p class="role">Cello</p>
           <h3>Wenduo Wang</h3>
-          <p class="bio">The foundation. The cello gives the quartet its floor, its heartbeat, and — when the melody drops low — its most human voice.</p>
-          <p class="strings"><span>Cello</span><span>C–G–D–A</span></p>
+          <p class="bio"><span><strong>C</strong>alm foundation</span><span><strong>G</strong>rounded pulse</span><span><strong>D</strong>eep humanity</span><span><strong>A</strong>nchoring voice</span></p>
         </article>
       </div>
     </section>
@@ -84,8 +76,8 @@
       <!-- EDIT: pieces the quartet is playing; add an <li> per piece -->
       <h3 class="subhead">Repertoire</h3>
       <ol class="pieces">
-        <li><span class="pnum">01</span><span class="ptitle">梁祝 <em>The Butterfly Lovers</em></span><span class="tag">On the stands</span></li>
-        <li><span class="pnum">02</span><span class="ptitle">兜圈</span><span class="tag">On the stands</span></li>
+        <li><span class="pnum">01</span><span class="ptitle"><span lang="zh-Hans">梁祝</span> <em>The Butterfly Lovers</em></span><span class="tag">On the stands</span></li>
+        <li><span class="pnum">02</span><span class="ptitle" lang="zh-Hans">兜圈</span><span class="tag">On the stands</span></li>
         <li><span class="pnum">03</span><span class="ptitle">Summer</span><span class="tag">On the stands</span></li>
       </ol>
 
@@ -94,10 +86,7 @@
       <ul class="events">
         <li>
           <time>Coming soon</time>
-          <div>
-            <h3>Our next performance</h3>
-            <p>Venue, programme and details to be announced.</p>
-          </div>
+          <p>Our next performance, venue, programme and details to be announced.</p>
         </li>
       </ul>
     </section>
@@ -107,13 +96,13 @@
       <p>Want to hear us play, or have an idea for a collaboration? We'd love to hear from you.</p>
       <!-- EDIT: add an email button here when the group has one -->
       <a class="button" href="https://www.instagram.com/a.bit.of.string/" target="_blank" rel="noopener">Message us on Instagram</a>
-      <p class="handle">Instagram @a.bit.of.string · 小红书 有弦室内乐团</p>
+      <p class="handle">Instagram @a.bit.of.string · <span lang="zh-Hans">小红书 有弦室内乐团</span></p>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year">2026</span> A Bit of String · <a href="https://www.instagram.com/a.bit.of.string/" target="_blank" rel="noopener">Instagram</a> · 小红书：有弦室内乐团</p>
+    <p>© <span id="year">2026</span> A Bit of String · <a href="https://www.instagram.com/a.bit.of.string/" target="_blank" rel="noopener">Instagram</a> · <span lang="zh-Hans">小红书：有弦室内乐团</span></p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
