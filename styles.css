@@ -106,3 +106,4 @@ h3 { font-size: 1.4rem; }
 .ptitle em { font-size: 1.1rem; color: var(--muted); margin-left: .4em; }
 .tag { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 3px 10px; white-space: nowrap; }
 @media (max-width: 560px) { .pieces li { grid-template-columns: 40px 1fr; } .tag { grid-column: 2; justify-self: start; } }
+.handle { color: var(--muted); font-size: .9rem; margin-top: 1em; }
