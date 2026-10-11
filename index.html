@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Bit of String · Chamber Music</title>
+  <meta name="description" content="A Bit of String is a chamber music group. Meet the players, see what we are working on, and get in touch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#top">A Bit of String</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#members">Members</a>
+      <a href="#now">What we're doing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO: replace images/hero.jpg with a group photo (wide, about 1800px) -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Chamber music</p>
+        <h1>A Bit of String</h1>
+        <p class="lede">Friends making music together, from Baroque to the present day.</p>
+        <a class="button" href="#now">See what we're playing</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About us</h2>
+      <p>
+        <!-- EDIT: a few sentences about how the group started and what you love to play -->
+        A Bit of String is a chamber ensemble that came together out of a shared love of
+        playing in small groups. We rehearse regularly, perform in our community, and are
+        always exploring new repertoire.
+      </p>
+    </section>
+
+    <section id="members" class="section alt">
+      <h2>Members</h2>
+      <!-- EDIT: one <article> per member. Photos go in images/ (square, about 600px). -->
+      <div class="grid members">
+        <article class="card">
+          <div class="avatar" aria-hidden="true">♪</div>
+          <h3>Member name</h3>
+          <p class="role">Violin</p>
+          <p>A sentence or two about this player.</p>
+        </article>
+        <article class="card">
+          <div class="avatar" aria-hidden="true">♪</div>
+          <h3>Member name</h3>
+          <p class="role">Violin</p>
+          <p>A sentence or two about this player.</p>
+        </article>
+        <article class="card">
+          <div class="avatar" aria-hidden="true">♪</div>
+          <h3>Member name</h3>
+          <p class="role">Viola</p>
+          <p>A sentence or two about this player.</p>
+        </article>
+        <article class="card">
+          <div class="avatar" aria-hidden="true">♪</div>
+          <h3>Member name</h3>
+          <p class="role">Cello</p>
+          <p>A sentence or two about this player.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="now" class="section">
+      <h2>What we're doing</h2>
+      <!-- EDIT: upcoming performances, current projects, recordings -->
+      <ul class="events">
+        <li>
+          <time>Coming soon</time>
+          <div>
+            <h3>Our next performance</h3>
+            <p>Venue, programme and details to be announced.</p>
+          </div>
+        </li>
+        <li>
+          <time>Now</time>
+          <div>
+            <h3>In rehearsal</h3>
+            <p>List the pieces you are currently working on here.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h2>Get in touch</h2>
+      <p>Want to hear us play, or have an idea for a collaboration? We'd love to hear from you.</p>
+      <!-- EDIT: replace with the group's email address -->
+      <a class="button" href="mailto:hello@example.com">Email us</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> A Bit of String</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
